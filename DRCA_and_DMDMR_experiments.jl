@@ -184,9 +184,6 @@ function knn_classifier(test_data, training_data, training_labels, k)
     return outputs
 end 
 
-
-###REMOVENDO OUTLIERS DA BASE DE DADOS
-
 #####LOADING DATASET##### 
 
 ####LOAD HERE YOUR DATASET
@@ -288,3 +285,4 @@ end
 println("Accuracies raw data: ", accuracies_raw_data)
 println("Accuracies drca data: ", accuracies_drca_data)
 println("Accuracies dmdmr data: ", accuracies_dmdmr_data)
+
